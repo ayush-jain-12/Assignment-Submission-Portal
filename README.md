@@ -56,22 +56,23 @@ Makes the code cleaner and easier to maintain.
 
 ### Recommended Configuration in Spring Initializr
 Project: Maven.
+
 Language: Java.
+
 Spring Boot Version: Latest stable release.
+
 Dependencies:
-Spring Boot Starter Web
-Spring Data MongoDB
-Spring Security
-Spring Boot Starter Test
-Lombok
+Spring Boot Starter Web,
+Spring Data MongoDB,
+Spring Security,
+Spring Boot Starter Test,
+Lombok.
 
 ### 3. Configure MongoDB
 Open the application.properties file located in src/main/resources/.
 Update the following MongoDB properties:
 spring.data.mongodb.uri=<>
 
-5. Run the Application
-Start the application using Maven or directly with the JAR file:
 
 ## Endpoints
 ### User Endpoints

@@ -76,37 +76,55 @@ spring.data.mongodb.uri=<>
 
 ## Endpoints
 ### User Endpoints
-HTTP Method	Endpoint	Description
+
+HTTP Method	Endpoint	Description:
+
 POST	/user/register	Register a new user
+
 POST	/user/login	User login
+
 POST	/user/upload	Upload an assignment
+
 GET	/user/admins	Fetch all admins
 
 ### Admin Endpoints
-HTTP Method	Endpoint	Description
+
+HTTP Method	Endpoint	Description:
+
 POST	/admin/register	Register a new admin
+
 POST	/admin/login	Admin login
+
 GET	/admin/assignments	View assignments tagged to admin
+
 POST	/admin/assignments/{id}/accept	Accept an assignment
+
 POST	/admin/assignments/{id}/reject	Reject an assignment
 
 ### Testing the Application
-Postman or API Testing Tools
+
+**Postman** or API Testing Tools
+
 Import the API documentation (if available as a file) into Postman.
+
 Use the provided endpoints for testing:
+
 Create users and admins.
+
 Upload and manage assignments.
+
 Troubleshooting
 
 ### MongoDB Connection Issue
 
 Ensure MongoDB is running on the configured port.
+
 If using Atlas, verify your IP is whitelisted.
 
 ### Maven Build Issues
 
 Ensure Maven and JDK versions are compatible.
-Run mvn clean to clear any cached issues and rebuild.
+
 Port Conflicts
 
 If the default port (8080) is busy, change the server port in application.properties:

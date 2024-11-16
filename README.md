@@ -2,6 +2,9 @@
 This document explains how to set up and run the Assignment Submission Portal backend system built with Spring Boot and MongoDB. Follow the steps below to get started.
 
 ## Prerequisites
+
+IntelliJ, Eclipse or any other suitable JAVA-based IDE
+
 Java Development Kit (JDK) 17 or higher
 Ensure Java is installed and added to your system's PATH.
 
